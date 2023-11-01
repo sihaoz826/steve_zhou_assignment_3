@@ -1,10 +1,10 @@
 // Array of birthday messages
 const messages = [
-    "Happy Birthday! 🎂",
-    "Wishing you all the best today! 🎉",
-    "Another year older, another year wiser. 🦉",
-    "Celebrate and enjoy your special day! 🎈",
-    "May your year be filled with happiness! 😊"
+    "Happy Birthday!!!",
+    "Wish you have a great next year!!!",
+    "You will achieve all things you want!!!",
+    "This is a really special day my friend :)",
+    "Best wishes for you!!!"
 ];
 
 // Function to generate a random integer from 0 up to (but not including) the given maximum
@@ -30,5 +30,5 @@ function updateBirthdayCard() {
     changeBackgroundColor();
 }
 
-// Set an interval to automatically update the birthday card every 5 seconds (5000 milliseconds)
+// Set an interval to automatically update the birthday card every 2 seconds (2000 milliseconds)
 setInterval(updateBirthdayCard, 2000);

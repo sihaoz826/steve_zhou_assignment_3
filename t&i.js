@@ -10,17 +10,4 @@ function showText() {
     document.getElementById('image-display').style.display = 'none';
 }
 
-// A flag to track the current state (whether the image is shown or not)
-let isImageShown = false;
 
-// Function to toggle between showing the image and the text
-function toggleImageText() {
-    // If the image is currently shown, show the text. Otherwise, show the image.
-    if (isImageShown) {
-        showText();
-    } else {
-        showImage();
-    }
-    // Toggle the flag to indicate the change in state
-    isImageShown = !isImageShown;
-}
